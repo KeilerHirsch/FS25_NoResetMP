@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="108">
+    <author>KeilerHirsch</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>No-Reset MP (Hardcore)</en>
+        <de>No-Reset MP (Hardcore)</de>
+    </title>
+    <description>
+        <en><![CDATA[Hardcore multiplayer realism: disables the free "reset vehicle to shop" option in multiplayer. A stuck, flipped or misplaced vehicle can no longer be teleported back for free - you have to drive it home (or, in a later version, pay for a tow).
+
+Singleplayer is left completely untouched.
+
+The game's own out-of-world safety net still works: a vehicle that genuinely falls through the terrain or leaves the world is still rescued automatically. This mod only removes the player-triggered convenience reset, nothing else.
+
+Install this on the dedicated server (and it will be forced onto all clients). No configuration needed - it just works.
+
+v1.0.0.0: Hardcore - blocks every player reset path in multiplayer.]]></en>
+        <de><![CDATA[Hardcore-Mehrspieler-Realismus: deaktiviert das kostenlose "Fahrzeug zum Haendler zuruecksetzen" im Mehrspieler. Ein festgefahrenes, umgekipptes oder verkeiltes Fahrzeug laesst sich nicht mehr gratis zurueckteleportieren - du musst es selbst nach Hause fahren (oder, in einer spaeteren Version, abschleppen lassen).
+
+Der Einzelspieler bleibt komplett unangetastet.
+
+Das spieleigene Sicherheitsnetz bleibt aktiv: ein Fahrzeug, das wirklich durch den Boden faellt oder die Welt verlaesst, wird weiterhin automatisch gerettet. Dieser Mod entfernt nur den vom Spieler ausgeloesten Komfort-Reset, sonst nichts.
+
+Auf dem Dedicated Server installieren (er erzwingt den Mod dann bei allen Clients). Keine Konfiguration noetig - laeuft einfach.
+
+v1.0.0.0: Hardcore - blockt jeden Spieler-Reset-Pfad im Mehrspieler.]]></de>
+    </description>
+    <iconFilename>icon_noResetMP.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/NoResetMP.lua"/>
+    </extraSourceFiles>
+</modDesc>
