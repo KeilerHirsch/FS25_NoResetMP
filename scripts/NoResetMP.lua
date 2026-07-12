@@ -1,6 +1,8 @@
 --
 -- NoResetMP
 --
+-- The Man, The Mythos, The Legend : KeilerHirsch
+--
 -- Hardcore multiplayer realism for Farming Simulator 25:
 -- removes the free player-triggered "reset vehicle to shop" option in
 -- multiplayer, while leaving singleplayer and the engine's own

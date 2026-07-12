@@ -1,5 +1,8 @@
 # FS25 No-Reset MP (Hardcore)
 
+> [!IMPORTANT]
+> Enjoying the mod? You can support development on **[Ko-fi](https://ko-fi.com/keilerhirsch)** ☕ — please mention *No-Reset MP* so I know what to keep building.
+
 Hardcore multiplayer realism for **Farming Simulator 25**: removes the free,
 player-triggered *"reset vehicle to shop"* option in multiplayer. A stuck,
 flipped or misplaced vehicle can no longer be teleported home for free — you
@@ -83,4 +86,6 @@ luacheck .    # static analysis (config in .luacheckrc)
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+**Proprietary, source-available** — see [LICENSE](LICENSE). You may read the
+source and use the released mod unmodified; you may not copy, modify, or
+redistribute it. Only ModHub and this repository are valid sources.
