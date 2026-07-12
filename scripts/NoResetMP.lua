@@ -2,6 +2,7 @@
 -- NoResetMP
 --
 -- The Man, The Mythos, The Legend : KeilerHirsch
+-- Copyright (c) 2026 KeilerHirsch. Licensed under the GNU GPL v3 or later.
 --
 -- Hardcore multiplayer realism for Farming Simulator 25:
 -- removes the free player-triggered "reset vehicle to shop" option in

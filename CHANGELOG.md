@@ -3,6 +3,14 @@
 All notable changes to FS25 No-Reset MP are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.0.2.0] - 2026-07-12
+
+### Changed
+- Relicensed to **GPLv3**. The KeilerHirsch default is now GPLv3 — open but
+  copyleft: forks and PRs are welcome, but you must keep the attribution and the
+  same license. This supersedes the brief v1.0.1.0 proprietary switch; releases
+  up to v1.0.1.0 keep their previously stated license.
+
 ## [1.0.1.0] - 2026-07-12
 
 ### Changed
