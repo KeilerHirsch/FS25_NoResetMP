@@ -1,4 +1,9 @@
-# FS25 No-Reset MP (Hardcore)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo-dark.svg">
+    <img alt="FS25 No-Reset MP (Hardcore)" src="docs/logo-light.svg" width="420">
+  </picture>
+</div>
 
 > [!IMPORTANT]
 > Enjoying the mod? You can support development on **[Ko-fi](https://ko-fi.com/keilerhirsch)** ☕ — please mention *No-Reset MP* so I know what to keep building.
