@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="FS25 No-Reset MP blocks the free player reset-to-shop in multiplayer while leaving singleplayer and the out-of-world rescue untouched">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="redPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b1418"/><stop offset="1" stop-color="#1c1416"/>
+    </linearGradient>
+    <linearGradient id="greenPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f2a1c"/><stop offset="1" stop-color="#111c17"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="640" rx="26" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <text x="64" y="66" fill="#f87171" font-size="20" font-weight="700" letter-spacing="3">FS25 · HARDCORE MULTIPLAYER</text>
+  <text x="64" y="120" fill="#f1f5f9" font-size="45" font-weight="800">No free <tspan fill="#f87171">"reset to shop"</tspan> in MP</text>
+  <text x="64" y="152" fill="#94a3b8" font-size="19">A flipped or stuck vehicle can't teleport home for free — drive it back yourself.</text>
+
+  <!-- BLOCKED panel -->
+  <rect x="64" y="188" width="512" height="368" rx="18" fill="url(#redPanel)" stroke="#ef4444" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="64" y="188" width="512" height="6" rx="3" fill="#ef4444"/>
+  <text x="92" y="232" fill="#f87171" font-size="17" font-weight="700" letter-spacing="2">BLOCKED IN MULTIPLAYER</text>
+
+  <g transform="translate(92,262)">
+    <circle cx="34" cy="34" r="34" fill="#ef4444" fill-opacity="0.14"/>
+    <path d="M18 34 h32 M50 34 l-10 -10 M50 34 l-10 10" stroke="#f87171" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="12" y1="56" x2="56" y2="12" stroke="#ef4444" stroke-width="5" stroke-linecap="round"/>
+    <text x="92" y="28" fill="#fecaca" font-size="20" font-weight="700">Player "reset to shop"</text>
+    <text x="92" y="56" fill="#fca5a5" font-size="17">the free teleport home — gone</text>
+  </g>
+
+  <text x="92" y="410" fill="#ef4444" font-size="40" font-weight="800">Earn it back</text>
+  <text x="94" y="440" fill="#cbd5e1" font-size="18">drive it home yourself · (planned: pay for a tow)</text>
+
+  <g font-size="15" font-weight="600">
+    <rect x="92" y="474" width="176" height="34" rx="17" fill="#ef4444" fill-opacity="0.14"/>
+    <text x="180" y="496" fill="#f87171" text-anchor="middle">no rage-reset</text>
+    <rect x="280" y="474" width="196" height="34" rx="17" fill="#ef4444" fill-opacity="0.14"/>
+    <text x="378" y="496" fill="#f87171" text-anchor="middle">consequences matter</text>
+  </g>
+
+  <!-- UNTOUCHED panel -->
+  <rect x="704" y="188" width="512" height="368" rx="18" fill="url(#greenPanel)" stroke="#22c55e" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="704" y="188" width="512" height="6" rx="3" fill="#22c55e"/>
+  <text x="732" y="232" fill="#4ade80" font-size="17" font-weight="700" letter-spacing="2">LEFT UNTOUCHED</text>
+
+  <g font-size="20" font-weight="700" fill="#e2fbe8">
+    <path d="M732 282 l9 10 l18 -20" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="772" y="292">Singleplayer — completely</text>
+    <path d="M732 334 l9 10 l18 -20" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="772" y="344">Out-of-world rescue — auto</text>
+    <path d="M732 386 l9 10 l18 -20" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="772" y="396">Wear · physics · everything else</text>
+  </g>
+  <text x="732" y="440" fill="#94a3b8" font-size="16">Only the free MP teleport is removed. Nothing else changes.</text>
+
+  <g font-size="15" font-weight="600">
+    <rect x="732" y="474" width="150" height="34" rx="17" fill="#22c55e" fill-opacity="0.14"/>
+    <text x="807" y="496" fill="#4ade80" text-anchor="middle">MP-safe</text>
+    <rect x="894" y="474" width="204" height="34" rx="17" fill="#22c55e" fill-opacity="0.14"/>
+    <text x="996" y="496" fill="#4ade80" text-anchor="middle">rescue net still works</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="64" y="582" width="1152" height="34" rx="10" fill="#0b1220" stroke="#334155" stroke-width="1"/>
+  <text x="88" y="604" fill="#cbd5e1" font-size="14">
+    <tspan font-weight="700" fill="#38bdf8">How:</tspan> gates Vehicle:getCanBeReset() → false in multiplayer only — verified against the FS25 base source · singleplayer untouched · GPLv3
+  </text>
+</svg>
