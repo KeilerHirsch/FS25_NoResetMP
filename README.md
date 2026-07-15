@@ -8,7 +8,7 @@
 > [!IMPORTANT]
 > Enjoying the mod? You can support development on **[Ko-fi](https://ko-fi.com/keilerhirsch)** ☕ — please mention *No-Reset MP* so I know what to keep building.
 
-<p align="center"><img src="assets/showcase.svg" width="900" alt="No free reset-to-shop in multiplayer; singleplayer and the out-of-world rescue left untouched"/></p>
+<p align="center"><img src="assets/showcase.gif" width="900" alt="No free reset-to-shop in multiplayer; singleplayer and the out-of-world rescue left untouched"/></p>
 
 Hardcore multiplayer realism for **Farming Simulator 25**: removes the free,
 player-triggered *"reset vehicle to shop"* option in multiplayer. A stuck,
