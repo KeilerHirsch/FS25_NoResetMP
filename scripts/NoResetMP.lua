@@ -109,7 +109,9 @@ function NoResetMP.install()
 
     if Vehicle == nil or Vehicle.getCanBeReset == nil
         or Utils == nil or Utils.overwrittenFunction == nil then
-        logLine("error", "engine hook API missing (Vehicle.getCanBeReset / Utils.overwrittenFunction) - mod INACTIVE, resets are NOT blocked. Check for an FS25 update changing the vehicle API.")
+        logLine("error", "engine hook API missing (Vehicle.getCanBeReset / Utils.overwrittenFunction)"
+            .. " - mod INACTIVE, resets are NOT blocked."
+            .. " Check for an FS25 update changing the vehicle API.")
         return
     end
 

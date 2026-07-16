@@ -5,11 +5,14 @@ std = "lua51"
 -- Globals this mod defines.
 globals = {
     "NoResetMP",
+    -- Vehicle is engine-provided but WRITABLE here on purpose: patching
+    -- Vehicle.getCanBeReset via Utils.overwrittenFunction IS the mod. Listing it
+    -- read-only made luacheck flag the mod's own mechanism as a warning.
+    "Vehicle",
 }
 
--- Engine-provided globals the mod reads (never assigns).
+-- Engine-provided globals the mod only reads.
 read_globals = {
-    "Vehicle",
     "Utils",
     "Logging",
     "g_currentMission",
